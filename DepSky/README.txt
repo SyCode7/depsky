@@ -10,6 +10,18 @@ If you only want to use Amazon S3 as your cloud storage provider, you can only c
 
 - If you want to test DepSky storing all data and metadata localy, you need to run first the local server at /src/depskys/clouds/drivers/localStorageService/ServerThread.java. To do this just run the script Run_LocalStorage.sh. This server will receive all requests at ip 127.0.0.1 and port 5555.
 
+To run DepSky locally on Windows
+
+Install java and verify installation at command line using the command "java --version" (JClouds requires java 1.6 or higher)
+
+1)Click on server.bat and follow instructions
+2)Click on client.bat and follow instructions
+
+Server can handle upto 6 clients specified by Id each id represents seperate user.
+You can simulate data integrity, data availability by manually editing files or deleting it in ds_local. 4 clouds are represented as 4 folders.
+
+
+
 
 To more information see https://code.google.com/p/depsky/wiki/DepSky.
 
